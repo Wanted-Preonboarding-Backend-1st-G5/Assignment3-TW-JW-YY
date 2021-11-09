@@ -26,7 +26,11 @@ class Command(BaseCommand):
         self.stdout.write(self.style.SUCCESS('[Start] import csv data...'))
 
         try:
+<<<<<<< HEAD
             if not re.match(".*\.csv", path):
+=======
+            if not re.match(".*\.csv$", path):
+>>>>>>> 7433e7e (Add: company detail 작성)
                 raise FileExtensionNotMatchError('The file extension is not csv!')
 
             with open(path, mode='r') as csv_file:
