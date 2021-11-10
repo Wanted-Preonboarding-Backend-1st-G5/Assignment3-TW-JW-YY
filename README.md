@@ -59,7 +59,7 @@
 
 
 ## API
-- [Posman Document](https://documenter.getpostman.com/view/16042359/UVC5Enhh)
+- [Postman Document](https://documenter.getpostman.com/view/16042359/UVC5Enhh)
 
 ## 구현 기능
 ### 회사 검색 기능
