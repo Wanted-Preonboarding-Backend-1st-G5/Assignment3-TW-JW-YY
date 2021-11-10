@@ -321,7 +321,7 @@ python manage.py export_csv_from_db -p export_wanted_temp.csv
 ## TIL정리 (Blog)
 - 김태우 : https://velog.io/@burnkim61/프리온보딩-과제-3
 - 고유영 :
-- 박지원 : 
+- 박지원 : https://yesjiwon5304.tistory.com/35
 
 # Reference
 이 프로젝트는 원티드x위코드 백엔드 프리온보딩 과제 일환으로 원티드랩에서 출제한 과제를 기반으로 만들었습니다.
