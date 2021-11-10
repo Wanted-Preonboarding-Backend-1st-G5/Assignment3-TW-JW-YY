@@ -180,13 +180,6 @@ company = Company.objects.get(company_name__ko="라인 프레쉬")
 
   
 3. 백엔드 서버용 .dockerenv.deploy.backend 파일을 만들어서 안에 다음과 같은 내용을 입력한다. manage.py와 같은 폴더에 생성한다.
-    ### .dockerenv.dev_local.backend
-    ```text
-    DJANGO_SECRET_KEY = 'django시크릿키'
-    ```
-   
-4. DB 용 .dockerenv.deploy.db 파일을 만들어서 안에 다음과 같은 내용을 입력한다. manage.py와 같은 폴더에 생성한다.
-  
     ### .dockerenv.deploy.backend
     ```text
       SQL_DATABASE_NAME=db이름
@@ -194,7 +187,8 @@ company = Company.objects.get(company_name__ko="라인 프레쉬")
       SQL_PASSWORD=db_비밀번호
       DJANGO_SECRET_KEY='django시크릿키'
     ```
-
+   
+4. DB 용 .dockerenv.deploy.db 파일을 만들어서 안에 다음과 같은 내용을 입력한다. manage.py와 같은 폴더에 생성한다.
     ### .dockerenv.deploy.db
     ```text
      POSTGRES_DB=db이름
