@@ -314,7 +314,7 @@ python manage.py export_csv_from_db -p export_wanted_temp.csv
 
 ## TIL정리 (Blog)
 - 김태우 : https://velog.io/@burnkim61/프리온보딩-과제-3
-- 고유영 :
+- 고유영 : https://lunayyko.github.io/wecode/2021/11/12/wantedxwecode-3-wantedlab/
 - 박지원 : https://yesjiwon5304.tistory.com/35
 
 # Reference
